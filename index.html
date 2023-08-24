@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;500;700&family=PT+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>ticketTrain</title>
+</head>
+<body class="bgGreen">
+
+    <h1 class="textCenter colorSalmon">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+
+    <div class="card bgWhite">
+        <div class="row">
+            <div class="col">
+                <h3>Nome Cognome</h3>
+                <input id="userName" type="text" placeholder="Mario Rossi">
+            </div>
+            <div class="col">
+                <h3>Km da percorrere</h3>
+                <input id="distance" type="number" placeholder="50">
+            </div>
+            <div class="col">
+                <h3>Fascia di etá</h3>
+                <input id="userAge" type="number" placeholder="25">
+            </div>
+        </div>
+
+        <div class="dFlex">
+            <button id="genera" class="btn">Genera</button>
+            <button id="cancel" class="btn">Annulla</button>
+        </div>
+    </div>
+
+    <h1 class="textCenter colorSalmon">IL TUO BIGLIETTO</h1>
+    <div class="card bgWhite">
+         <div class="detail">
+            <h2>DETTAGLIO PASSEGGERI</h2>
+            <div style=" color: blueviolet;" class="dFlex100 borders">
+                <div style="background-color: plum; padding: 1rem;" class="colCard">
+                    <h4>NOME PASSEGGERO</h4>
+                    <h4 id="nameUser"></h4>
+                </div>
+                <div class="colCard">
+                    <h4>OFFERTA</h4>
+                    <h4>Biglietto Standard</h4>
+                </div>
+                <div class="colCard">
+                    <h4>CARROZZA</h4>
+                    <h4>Economy</h4>
+                </div>
+                <div class="colCard">
+                    <h4>CODICE CP</h4>
+                    <h4>92911</h4>
+                </div>
+                <div class="colCard">
+                    <h4>COSTO BIGLIETTO</h4>
+                    <h4 id="priceTicket"></h4>
+                </div>
+            </div>
+         </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

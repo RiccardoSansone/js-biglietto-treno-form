@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.textCenter{
+    text-align: center;
+    padding-top: 2rem;
+}
+.colorWhite{
+    color: white;
+}
+.colorSalmon{
+    color: salmon;
+}
+.bgGreen{
+    background-color: green;
+}
+.bgWhite{
+    background-color: white;
+}
+.card{
+    width: 80%;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 2rem;
+    height: 300px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    padding-top: 3rem;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    color: green;
+    text-align: center;
+}
+.btn{
+    background-color: greenyellow;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    color: salmon;
+    padding: 0.3rem 0.5rem;
+    border-color: salmon;
+}
+.dFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 13%;
+    margin: auto;
+    padding-top: 5rem;
+}
+.detail{
+    width: 95%;
+    margin: auto;
+    padding: 2rem 0;
+}
+h2{
+    color: plum;
+}
+.dFlex100{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+.borders{
+    border-top: 1px solid plum;
+    border-bottom: 1px solid plum;
+}
+.colCard{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    padding: 1rem 1rem;
+    gap: 4rem;
+}
